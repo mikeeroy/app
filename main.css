@@ -8,7 +8,8 @@ body {
     padding: 2em 2em 4em;
     max-width: 300px;
     /*width: 800px;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: Georgia, Times, serif;
     font-size: 16px;
     line-height: 1.5em;
     color: #545454;
