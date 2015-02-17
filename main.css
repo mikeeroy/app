@@ -16,6 +16,7 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
+
 @media screen and (min-width: 769px) {
     body {
         max-width: 600px;
