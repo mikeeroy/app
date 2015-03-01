@@ -99,6 +99,7 @@ img {
 
 #nav li {
 	height: 10%; /* 48px / 480px */
+    list-style: none;
 	text-decoration: none;
 	/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
 }
@@ -109,6 +110,7 @@ img {
 	padding: 1%; /* 48px / 480px */
 	color: #000;
 	text-decoration: none;
+    
 }
 
 @-webkit-keyframes colorize {
