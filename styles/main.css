@@ -33,40 +33,21 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: 600;
-    line-height: 1.3em;
+    /*line-height: 1.3em;*/
     font-family: 'Open Sans', sans-serif;
 }
 
-h2 {
-    margin-top: 1.3em;
-}
-
-a {
-    color: #0083e8;
-}
-
-b, strong {
-    font-weight: 600;
-}
-
-samp {
-    display: none;
-}
-
 img {
-    /*-webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;*/
-    /*animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;*/
-    /*background: transparent;*/
-    /*border-radius: 4px;*/
     display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
+    margin: none;
+    max-width: 100%;
 }
 
 .recordCover{
     border: 10px solid rgba(0, 0, 0, 0.05);
-    /*border-radius: 4px;*/
     background: transparent;
+    padding: none;
+    margin-bottom: 10px;
 }
 
 .recordInfo{
@@ -85,29 +66,19 @@ img {
     font-weight: 600;
     line-height: 1.3em;
     text-decoration: none;
-    /*list-style: none;*/
-    
-	/*height: 10%; /* 48px / 480px */
-	/*float: left;*/
-	/*margin: 0;*/
-	/*width: 100%;*/
-	/*font: bold 1em Arial, Helvetica, sans-serif;*/
-	text-decoration: none;
-	/*background: #EEE;*/
-	/*color: #999;*/
+
 }
 
 #nav li {
-	height: 10%; /* 48px / 480px */
+	/*height: 10%; /* 48px / 480px */
     list-style: none;
 	text-decoration: none;
-	/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+
 }
 
 #nav a {
 	height: 10%; /* 48px / 480px */
 	display: block;
-	padding: 1%; /* 48px / 480px */
 	color: #000;
 	text-decoration: none;
     
